@@ -15,19 +15,27 @@ nav {
 
 }
 
+.nav-menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 4rem;
+    flex: 0.5;
+}
+
+.nav-links {
+    display: none;
+    align-items: center;
+    gap: 4rem;
+    flex: 0.5;
+}
+
 .navlogo {
     flex: 0.3;
 }
 
 .navlogo img {
     height: 60px;
-}
-
-.nav-links {
-    display: flex;
-    align-items: center;
-    gap: 4rem;
-    flex: 0.5;
 }
 
 .nav-items {
@@ -69,4 +77,21 @@ nav {
     background: #007AFF;
     color: #fff;
     border: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .nav-menu {
+        display: none;
+        align-items: center;
+        gap: 4rem;
+        flex: 0.5;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        flex: 0.5;
+    }
+
 }

@@ -27,7 +27,7 @@ nav ul {
 }
 
 .navlinks li {
-    font-size: 24px;
+    font-size: clamp(0.8125rem, 0.567rem + 0.7857vw, 1.5rem);
     color: #1c2b66;
     /* font-weight: 700; */
 }
@@ -36,7 +36,7 @@ nav ul {
     /* background-color: #04AA6D; */
     /* color: white; */
     padding: 16px;
-    font-size: 24px;
+    font-size: clamp(0.8125rem, 0.567rem + 0.7857vw, 1.5rem);
 
     color: #1c2b66;
     background: transparent;
@@ -126,6 +126,10 @@ nav ul li {}
     }
 
     .dropbtn {
+        color: #ffffff;
+    }
+
+    .navlinks li {
         color: #ffffff;
     }
 
