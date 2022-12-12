@@ -195,7 +195,6 @@
 .contractImage-container {
 
     height: fit-content;
-    padding: 1rem;
     width: 70%;
     height: fit-content;
     /* background: rgba(28, 43, 102, 0.9); */
@@ -254,5 +253,10 @@
 @media screen and (max-width:600px) {
     .landing-bg {
         display: none;
+    }
+
+    .text h1,
+    .text h2 {
+        line-height: normal;
     }
 }
