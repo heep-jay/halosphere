@@ -9,13 +9,19 @@ import { HomeComponent } from './Pages/home/home.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PlansafeComponent } from './Pages/plansafe/plansafe.component';
+import { RollfooterComponent } from './Components/rollfooter/rollfooter.component';
+import { RollsafenavComponent } from './Components/rollsafenav/rollsafenav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    PlansafeComponent,
+    RollfooterComponent,
+    RollsafenavComponent
   ],
   imports: [
     BrowserModule,
